@@ -212,7 +212,7 @@ const Admissions: React.FC = () => {
 
       <section className="section">
         <div className="container">
-          <div className="text-center mb-16">
+          <div className="text-xl md:text-3xl text-center mb-16">
             <h2>School Fees & Tuition</h2>
             <p className="text-[1.2rem] text-[#666666] max-w-[700px] mx-auto">
               Our tuition structure is designed to be accessible while maintaining academic rigor.
@@ -235,7 +235,7 @@ const Admissions: React.FC = () => {
                 <table className="w-full border-collapse">
                   <thead>
                     <tr>
-                      <th className="bg-primary text-white text-left p-6 font-semibold uppercase tracking-[1px] font-body text-[0.9rem] rounded-tl-lg">Program Level</th>
+                      <th className="bg-primary text-white text-left p-6 font-semibold uppercase tracking-[1px] font-body text-[0.9rem] rounded-tl-lg">School Charges</th>
                       <th className="bg-primary text-white text-left p-6 font-semibold uppercase tracking-[1px] font-body text-[0.9rem] rounded-tr-lg">Amount</th>
                     </tr>
                   </thead>
