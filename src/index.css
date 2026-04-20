@@ -1,0 +1,112 @@
+@import url(https://db.onlinewebfonts.com/c/98944f96ac3faf2ad29a08fdde0deeab?family=Geist);
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0a192f;
+  --color-secondary: #d4af37;
+  --color-secondary-light: #f3d473;
+  --color-background: #f9f9f9;
+  
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Geist", sans-serif;
+  
+  --spacing-nav-height: 80px;
+}
+
+@layer base {
+  * {
+    @apply box-border m-0 p-0;
+  }
+  
+  body {
+    @apply font-body bg-background text-[#222222] leading-relaxed overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading text-primary leading-tight;
+  }
+}
+
+@layer components {
+  .app-container {
+    @apply flex flex-col min-h-screen;
+  }
+  
+  .main-content {
+    @apply flex-1;
+  }
+  
+  .container {
+    @apply max-w-[1200px] mx-auto px-8;
+  }
+  
+  .section {
+    @apply py-24;
+  }
+  
+  .page-header {
+    @apply bg-primary text-white pt-[calc(6rem+80px)] pb-16 text-center;
+  }
+  
+  .page-header h1 {
+    @apply text-secondary text-5xl mb-4;
+  }
+  
+  .page-header p {
+    @apply text-xl max-w-[600px] mx-auto opacity-90;
+  }
+  
+  /* Buttons */
+  .btn {
+    @apply inline-block px-8 py-3 rounded font-semibold text-base transition-all duration-300 cursor-pointer border-none font-body;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-[#112a4d] hover:-translate-y-[2px] hover:shadow-[0_4px_12px_rgba(10,25,47,0.2)];
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-primary hover:bg-secondary-light hover:-translate-y-[2px] hover:shadow-[0_4px_12px_rgba(212,175,55,0.3)];
+  }
+  
+  .btn-outline {
+    @apply bg-transparent border-2 border-secondary text-secondary hover:bg-secondary hover:text-primary;
+  }
+  
+  /* Effects */
+  .glass {
+    @apply bg-white/80 backdrop-blur-md border border-white/30;
+  }
+  
+  .glass-dark {
+    @apply bg-primary/80 backdrop-blur-md border border-white/10 text-white;
+  }
+
+  /* Form Styles */
+  .form-group {
+    @apply flex flex-col gap-2;
+  }
+
+  .form-group label {
+    @apply text-[0.9rem] font-semibold text-primary uppercase tracking-wider;
+  }
+
+  .form-input {
+    @apply w-full px-4 py-3 rounded-lg border-2 border-gray-100 bg-gray-50 focus:bg-white focus:border-secondary transition-all outline-none font-body text-base;
+  }
+
+  .form-label {
+    @apply text-primary font-semibold mb-1 block;
+  }
+
+  /* Custom Scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-gray-200 rounded-full hover:bg-gray-300 transition-colors;
+  }
+}
