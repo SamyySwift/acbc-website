@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex gap-4">
               <a href="#" className="flex justify-center items-center w-10 h-10 rounded-full bg-white/10 text-white transition-all duration-300 hover:bg-secondary hover:text-primary hover:-translate-y-1" aria-label="Facebook"><Facebook size={20} /></a>
-              <a href="#" className="flex justify-center items-center w-10 h-10 rounded-full bg-white/10 text-white transition-all duration-300 hover:bg-secondary hover:text-primary hover:-translate-y-1" aria-label="LinkedIn"><Linkedin size={20} /></a>
+              {/* <a href="#" className="flex justify-center items-center w-10 h-10 rounded-full bg-white/10 text-white transition-all duration-300 hover:bg-secondary hover:text-primary hover:-translate-y-1" aria-label="LinkedIn"><Linkedin size={20} /></a> */}
             </div>
           </div>
 
