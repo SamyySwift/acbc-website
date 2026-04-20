@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
         title="Contact Us | The Apostolic Church Bible College"
         description="Get in touch with ACBC Ikom. Contact our registrar office for questions about admissions, programs, and general inquiries."
         keywords="contact acbc, acbc ikom, bible college contact, theology school enquries"
-        url="https://acbc.edu.ng/contact"
+        url="https://acbcikom.com/contact"
       />
       <header className="page-header relative overflow-hidden bg-primary text-white pt-[calc(10rem+80px)] pb-48 text-center z-0">
         <div className="absolute top-0 left-0 w-full h-full bg-linear-to-br from-[#0a192fF2] to-[#0a192fCC] z-[-1]"></div>

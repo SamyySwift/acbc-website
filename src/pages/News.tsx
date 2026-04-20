@@ -35,7 +35,7 @@ const News: React.FC = () => {
         title="News & Updates | The Apostolic Church Bible College"
         description="Stay informed with the latest happenings, events, and announcements at Apostolic Church Bible College Ikom."
         keywords="acbc news, apostolic church events, bible college updates"
-        url="https://acbc.edu.ng/news"
+        url="https://acbcikom.com/news"
       />
       {/* Hero */}
       <section className="relative h-[40vh] min-h-[300px] flex items-center pt-[80px] overflow-hidden">

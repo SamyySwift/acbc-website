@@ -42,7 +42,7 @@ const Home: React.FC = () => {
         title="Welcome to ACBC | The Apostolic Church Bible College" 
         description="The Apostolic Church Bible College holistically builds the man of God, thoroughly equipping him for every good work to effectively divide the word of truth."
         keywords="bible college, theology, apostolic church, christian education, divinity"
-        url="https://acbc.edu.ng/"
+        url="https://acbcikom.com/"
       />
       {/* Hero Section */}
       <section className="relative h-screen min-h-[600px] flex items-center pt-[80px] overflow-hidden z-0">

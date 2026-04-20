@@ -18,7 +18,7 @@ const About: React.FC = () => {
         title="About Us | The Apostolic Church Bible College"
         description="Learn about the history, mission, vision and academic leaders of The Apostolic Church Bible College, established in 2012."
         keywords="about acbc, bible college history, ikom, apostolic church, theological seminary"
-        url="https://acbc.edu.ng/about"
+        url="https://acbcikom.com/about"
       />
       <header className="page-header relative overflow-hidden bg-primary text-white pt-[calc(10rem+80px)] pb-48 text-center z-0">
         <div className="absolute top-0 left-0 w-full h-full bg-linear-to-br from-[#0a192fF2] to-[#0a192fCC] z-[-1]"></div>

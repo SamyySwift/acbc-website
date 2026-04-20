@@ -68,7 +68,7 @@ const Academics: React.FC = () => {
         title="Academics & Programs | The Apostolic Church Bible College"
         description="Explore our rigorous theological programs including Certificate, Diploma, and Bachelor of Arts in Theology, Divinity, and Biblical Studies."
         keywords="theology degree, bible college academics, diploma in theology, christian education programs"
-        url="https://acbc.edu.ng/academics"
+        url="https://acbcikom.com/academics"
       />
       <header className="page-header relative overflow-hidden bg-primary text-white pt-[calc(10rem+80px)] pb-48 text-center z-0">
         <div className="absolute top-0 left-0 w-full h-full bg-linear-to-br from-[#0a192fF2] to-[#0a192fCC] z-[-1]"></div>

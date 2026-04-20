@@ -88,7 +88,7 @@ const Admissions: React.FC = () => {
         title="Admissions & Applications | The Apostolic Church Bible College"
         description="Apply now to Apostolic Church Bible College. View requirements, tuition fees, and complete your online application today."
         keywords="acbc admissions, bible college application, ikom theology school, theology tuition fees"
-        url="https://acbc.edu.ng/admissions"
+        url="https://acbcikom.com/admissions"
       />
       <header className="page-header relative overflow-hidden bg-primary text-white pt-[calc(10rem+80px)] pb-48 text-center z-0">
         <div className="absolute top-0 left-0 w-full h-full bg-linear-to-br from-[#0a192fF2] to-[#0a192fCC] z-[-1]"></div>

@@ -16,7 +16,7 @@ export default function SEO({
   name = "ACBC", 
   type = "website", 
   image = "/logo.jpeg", 
-  url = "https://acbc.edu.ng", 
+  url = "https://acbcikom.com", 
   keywords 
 }: SEOProps) {
   return (

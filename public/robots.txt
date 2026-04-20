@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /admin/
 Allow: /
-Sitemap: https://acbc.edu.ng/sitemap.xml
+Sitemap: https://acbcikom.com/sitemap.xml
